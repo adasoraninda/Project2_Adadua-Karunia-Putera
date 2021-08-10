@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements MathContract.View
     public void reset() {
         inputNumber1.setText("");
         inputNumber2.setText("");
+        textResult.setText(getString(R.string.default_value));
     }
 
     @Override
